@@ -1,0 +1,107 @@
+
+body {
+    background-color: #faf7ff;
+    color: #302344;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6c45a5;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+/* Hero */
+.hero {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #faf7ff, #eee4ff);
+}
+
+.hero h1 {
+    color: #50327e;
+}
+
+.hero-label {
+    color: #8056ad;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.hero-description {
+    max-width: 750px;
+}
+
+/* Tombol */
+.btn-ungu {
+    background-color: #6c45a5;
+    border-color: #6c45a5;
+    color: white;
+}
+
+.btn-ungu:hover {
+    background-color: #50327e;
+    border-color: #50327e;
+    color: white;
+}
+
+/* Judul bagian */
+.section-title {
+    color: #50327e;
+}
+
+/* Kartu proyek */
+.project-card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(80, 50, 126, 0.15);
+}
+
+.project-icon {
+    background-color: #eee4ff;
+    color: #6c45a5;
+    padding: 22px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Tentang Saya */
+.tentang-section {
+    background-color: #eee4ff;
+}
+
+.tentang-description {
+    max-width: 750px;
+}
+
+/* Kontak */
+.contact-box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(80, 50, 126, 0.08);
+}
+
+.contact-container {
+    max-width: 650px;
+}
+
+.form-control:focus {
+    border-color: #a58bd0;
+    box-shadow: 0 0 0 0.2rem rgba(108, 69, 165, 0.15);
+}
+
+/* Footer */
+footer {
+    background-color: #50327e;
+    color: white;
+    padding: 20px 0;
+}
