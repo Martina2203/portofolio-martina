@@ -12,7 +12,7 @@ formKontak.addEventListener("submit", function(event) {
         feedback.className = "mt-3 text-danger";
         return;
     }
-
+    
     const nama = document.getElementById("nama").value.trim();
 
     feedback.textContent =
