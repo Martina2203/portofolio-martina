@@ -1,4 +1,3 @@
-
 body {
     background-color: #faf7ff;
     color: #302344;
@@ -82,23 +81,7 @@ body {
     max-width: 750px;
 }
 
-/* Kontak */
-.contact-box {
-    background-color: white;
-    border-radius: 15px;
-    padding: 30px;
-    box-shadow: 0 5px 20px rgba(80, 50, 126, 0.08);
-}
-
-.contact-container {
-    max-width: 650px;
-}
-
-.form-control:focus {
-    border-color: #a58bd0;
-    box-shadow: 0 0 0 0.2rem rgba(108, 69, 165, 0.15);
-}
-
+/* Foto Profil */
 .foto-profil {
     width: 180px;
     height: 180px;
@@ -106,7 +89,6 @@ body {
     object-position: center top;
     border-radius: 50%;
 }
-
 
 /* Judul Kontak */
 .contact-heading {
@@ -138,13 +120,17 @@ body {
 }
 
 /* Kartu Formulir */
+.contact-container {
+    max-width: 650px;
+}
+
 .contact-box {
     background: linear-gradient(145deg, #ffffff, #faf7ff);
     border: 1px solid #eee4ff;
     border-radius: 22px;
     padding: 40px;
     box-shadow: 0 12px 35px rgba(80, 50, 126, 0.12);
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: box-shadow 0.3s;
 }
 
 .contact-box:hover {
